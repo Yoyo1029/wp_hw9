@@ -10,7 +10,7 @@ import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 
 import { useStyles } from '../hooks';
-import axios from '../api';
+import axios from 'axios';
 import { useScoreCard } from '../hooks/useScoreCard';
 
 const Wrapper = styled.section`
